@@ -41,9 +41,8 @@ module.exports = {
       accounts: [`0x${process.env.PRIVATE_KEY}`],
     },
     mainnet: {
-      url: 'https://api.avax.network/ext/bc/C/rpc',
-      gasPrice: 225000000000,
-      chainId: 43114,
+      url: 'https://eth-mainnet.g.alchemy.com/v2/GAG2amJoAjnroZO0qYTLJXRbyO1PZnrg',
+      chainId: 1,
       accounts: [`0x${process.env.PRIVATE_KEY}`],
     },
     goerli: {
@@ -53,9 +52,7 @@ module.exports = {
     }
   },
   // etherscan: {
-  //   apiKey: {
-  //     goerli: '4GP9FDN18RHWHXC1QPNZNARZ2QMQAQG77K'
-  //   }
+  //   apiKey: 'P1QGBG7GXN8I6QU4Z9CPABBJADXXH73NWY'
   // }
   // etherscan: {
   //   // Your API key for Etherscan
@@ -65,7 +62,7 @@ module.exports = {
   // }
   etherscan: {
     apiKey: {
-      avalancheFujiTestnet: 'BBAD5H495RAZEU6PV1PHDJ6YE1QQMWY3DX',
+      avalancheFujiTestnet: 'QEP8WPU326XSK6ADTTWTSXNI54EWVYVMF6',
     },
   },
 }

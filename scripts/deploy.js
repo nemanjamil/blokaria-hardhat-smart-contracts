@@ -26,8 +26,8 @@ async function main() {
   // await token.deployed();
   // console.log("BCToken deployed to:", token.address);
   // We get the contract to deploy
-  
-  
+
+
   const Marketplace = await hre.ethers.getContractFactory(
     "BCNFTMarketplace"
   );
